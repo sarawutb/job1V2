@@ -1,0 +1,91 @@
+.loader,
+   .loader:after {
+       border-radius: 50%;
+       width: 10em;
+       height: 10em;
+   }
+   .loader {
+       margin: 370px auto;
+       font-size: 10px;
+       position: relative;
+       text-indent: -9999em;
+       border-top: 1.1em solid rgba(255, 255, 255, 0.2);
+       border-right: 1.1em solid rgba(255, 255, 255, 0.2);
+       border-bottom: 1.1em solid rgba(255, 255, 255, 0.2);
+       border-left: 1.1em solid #303030;
+       -webkit-transform: translateZ(0);
+       -ms-transform: translateZ(0);
+       transform: translateZ(0);
+       -webkit-animation: load8 1.1s infinite linear;
+       animation: load8 1.1s infinite linear;
+   }
+   @-webkit-keyframes load8 {
+       0% {
+           -webkit-transform: rotate(0deg);
+           transform: rotate(0deg);
+       }
+       100% {
+           -webkit-transform: rotate(360deg);
+           transform: rotate(360deg);
+       }
+   }
+   @keyframes load8 {
+       0% {
+           -webkit-transform: rotate(0deg);
+           transform: rotate(0deg);
+       }
+       100% {
+           -webkit-transform: rotate(360deg);
+           transform: rotate(360deg);
+       }
+   }
+   #loadingDiv {
+       position:absolute;;
+       top:0;
+       left:0;
+       width:100%;
+       height:100%;
+       background-color:transparent;
+   }
+   form label{
+     font-weight:bold;
+   }
+   .back-link a {
+ 		color: #4ca340;
+ 		text-decoration: none;
+ 		border-bottom: 1px #4ca340 solid;
+ 	}
+ 	.back-link a:hover,
+ 	.back-link a:focus {
+ 		color: #408536;
+ 		text-decoration: none;
+ 		border-bottom: 1px #408536 solid;
+ 	}
+ 	h1 {
+ 		height: 100%;
+ 		/* The html and body elements cannot have any padding or margin. */
+ 		margin: 0;
+ 		font-size: 14px;
+ 		font-family: 'Open Sans', sans-serif;
+ 		font-size: 32px;
+ 		margin-bottom: 3px;
+ 	}
+ 	.entry-header {
+ 		text-align: left;
+ 		margin: 0 auto 50px auto;
+ 		width: 80%;
+         max-width: 978px;
+ 		position: relative;
+ 		z-index: 10001;
+ 	}
+ 	#demo-content {
+ 		padding-top: 100px;
+ 	}
+  .header-title{
+    font-size: 22px;
+  }
+  p{
+    color: red;
+  }
+  #view_pdf{ width:100%; height:auto; border:1px solid #909090;}
+  /* #view_img{ width:100%; height:auto; border:1px solid #909090;} */

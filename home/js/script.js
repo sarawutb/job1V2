@@ -9,7 +9,7 @@ $.ajax({
     // });
     // function Loader(){
       $.ajax({
-        url: "page5.php",
+        url: "page2.php",
         data:"",
         success: function(result){
           $("#showpage").html(result);
@@ -465,6 +465,14 @@ function backhome(){
     }});
 }
 // page2
+function clear_file1() {
+  document.getElementById("input_file1").value = null;
+  document.getElementById("show_file1").innerHTML = null;
+}
+function clear_file2() {
+  document.getElementById("input_file2").value = null;
+  document.getElementById("show_file2").innerHTML = null;
+}
 function backpage1(){
       $.ajax({
        url: "page1.php",

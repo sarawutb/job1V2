@@ -47,21 +47,6 @@ if (!file_exists("../uploads/".date("dmY"))) {
                   <font color="red"id="report_file2"></font>
                   </div>
                 </div>
-
-<script type="text/javascript">
-  // var input_file1 = document,getElementById("input_file1");
-  function clear_file1() {
-    console.log("OK1");
-    document.getElementById("input_file1").value = null;
-    document.getElementById("show_file1").innerHTML = null;
-  }
-  function clear_file2() {
-    console.log("OK2");
-    document.getElementById("input_file2").value = null;
-    document.getElementById("show_file2").innerHTML = null;
-  }
-</script>
-
             <div class="form-group">
               <label>หมายเหตุ: หนังสือมอบอำนาจจะต้องมีลักษณะดังนี้</label>
                 <div class="ml-5 mr-5">

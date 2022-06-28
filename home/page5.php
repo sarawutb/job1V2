@@ -1,5 +1,6 @@
   <div id="showpage">
-  <form action="data_send_session.php" method="post">
+  <!-- <form action="data_send_session.php" method="post"> -->
+  <form action="../api/create.php" method="post">
     <div class="card mt-4">
       <div class="card-body">
           <h3>5. ข้อสงวนสิทธิของผู้ควบคุมข้อมูล</h3>

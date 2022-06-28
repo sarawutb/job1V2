@@ -21,7 +21,13 @@ if (isset($_GET["name1"])) {
     echo 'Success';
     $_SESSION["file1"] = $filename1;
   } else {
-    alert("อัพโหลดเอกสารล้มเหลว");
+    $_SESSION["file1"] = null;
+    echo '
+    <script>
+      alert("อัพโหลดเอกสารล้มเหลว");
+    </script>
+    ';
+    
   }
 }
 if (isset($_GET["name2"])) {
@@ -33,7 +39,12 @@ if (isset($_GET["name2"])) {
     echo 'Success';
     $_SESSION["file2"] = $filename2;
   } else {
-    alert("อัพโหลดเอกสารล้มเหลว");
+    $_SESSION["file2"] = null;
+    echo '
+    <script>
+      alert("อัพโหลดเอกสารล้มเหลว");
+    </script>
+    ';
   }
 }
 
